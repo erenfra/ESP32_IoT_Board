@@ -4040,6 +4040,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 127) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08799074-f3c6-4bd6-b1dd-b0b0e6bb3667")
+	)
+	(wire
+		(pts
 			(xy 101.6 170.18) (xy 111.76 170.18)
 		)
 		(stroke
@@ -4310,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 130.81) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e88b65-3a93-4d83-9ef7-da5028e7a43d")
+	)
+	(wire
+		(pts
 			(xy 212.725 34.29) (xy 212.725 36.83)
 		)
 		(stroke
@@ -4357,6 +4377,16 @@
 			(type default)
 		)
 		(uuid "5a8f6f50-1323-4ef2-a2d9-181f287d1c2d")
+	)
+	(wire
+		(pts
+			(xy 165.1 123.19) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db65df3-fe7a-494b-ae92-673c522b3220")
 	)
 	(wire
 		(pts
@@ -8376,6 +8406,16 @@
 		(uuid "00446b78-f5c8-43df-b015-6842f06a5d7a")
 	)
 	(label "USB_DP"
+		(at 168.91 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b022a28-2ee5-49da-b841-29e0f1ce98ed")
+	)
+	(label "USB_DP"
 		(at 39.37 43.18 180)
 		(effects
 			(font
@@ -8384,6 +8424,26 @@
 			(justify right bottom)
 		)
 		(uuid "115107ce-6b03-4bf3-8e95-4a04e545387f")
+	)
+	(label "USB_DN"
+		(at 168.91 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15473c27-9104-4637-b855-e52d5fd29824")
+	)
+	(label "VBUS"
+		(at 168.91 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c700889-5707-4c6d-83cb-3cfe78cfe1cd")
 	)
 	(label "USB_DN"
 		(at 80.01 45.72 0)
@@ -13034,6 +13094,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 165.1 123.19 0)
+			(uuid "0a9cfaa2-8330-4315-be15-f7aed7c39db0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 165.1 127 0)
+			(uuid "0572f0e3-e12b-4869-b191-879bf8584cbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT" input
+			(at 165.1 130.81 0)
+			(uuid "b7320ae8-831a-4327-b896-8c92e8023076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
