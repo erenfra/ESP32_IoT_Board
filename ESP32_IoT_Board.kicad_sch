@@ -3470,131 +3470,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3915,16 +3790,10 @@
 		(uuid "47c54969-af0d-4b36-b2e4-bca060e14810")
 	)
 	(junction
-		(at 88.265 111.76)
+		(at 88.9 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f47dad9-b015-4a46-8fb9-c5e275b9a7c4")
-	)
-	(junction
-		(at 33.02 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5faaffe-65de-4144-8803-c3a4121b1046")
 	)
 	(junction
 		(at 182.88 86.36)
@@ -3939,10 +3808,16 @@
 		(uuid "c1a52da8-047f-4cde-b459-bfe029bf27c8")
 	)
 	(junction
-		(at 212.725 34.29)
+		(at 213.36 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3e8962a-9c6d-49ce-a6b8-718378ed98e4")
+	)
+	(junction
+		(at 204.47 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb6b7602-7356-4e1e-b97f-5f19873703fe")
 	)
 	(junction
 		(at 93.98 111.76)
@@ -4020,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.725 36.83) (xy 215.9 36.83)
+			(xy 213.36 36.83) (xy 215.9 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4097,6 +3972,16 @@
 			(type default)
 		)
 		(uuid "1488429e-f889-4657-bb67-a7ce56c876a6")
+	)
+	(wire
+		(pts
+			(xy 204.47 52.07) (xy 204.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c20097-eecc-40f6-bb54-ccb5050f2f8d")
 	)
 	(wire
 		(pts
@@ -4180,7 +4065,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 41.91) (xy 256.54 41.91)
+			(xy 259.08 41.91) (xy 256.54 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4215,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.725 34.29) (xy 212.725 36.83)
+			(xy 213.36 34.29) (xy 213.36 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4400,6 +4285,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 106.68) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0940ce-f986-4cf8-ae8b-45104e2d60b6")
+	)
+	(wire
+		(pts
 			(xy 91.44 30.48) (xy 91.44 31.75)
 		)
 		(stroke
@@ -4410,23 +4305,33 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 111.76) (xy 33.02 111.76)
+			(xy 96.52 31.75) (xy 96.52 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60a6c4a8-bc39-4b8b-a7b9-2194d1dd9784")
+		(uuid "62f71abb-57b8-4fdc-b5bf-7f70fd8e4204")
 	)
 	(wire
 		(pts
-			(xy 207.01 34.29) (xy 212.725 34.29)
+			(xy 207.01 34.29) (xy 213.36 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "679449c8-dfdb-4464-a824-57b626080df9")
+	)
+	(wire
+		(pts
+			(xy 215.9 52.07) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710b6694-234f-4dd0-adfd-5cad2b8d87ba")
 	)
 	(wire
 		(pts
@@ -4480,7 +4385,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 36.83) (xy 258.445 36.83)
+			(xy 256.54 36.83) (xy 259.08 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4510,7 +4415,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 114.3) (xy 88.265 111.76)
+			(xy 88.9 114.3) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4540,7 +4445,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 111.76) (xy 88.265 111.76)
+			(xy 85.09 111.76) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4570,7 +4475,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.725 31.75) (xy 212.725 34.29)
+			(xy 213.36 31.75) (xy 213.36 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4597,16 +4502,6 @@
 			(type default)
 		)
 		(uuid "9a41fb22-da9d-461e-a154-1bdc5b8052e4")
-	)
-	(wire
-		(pts
-			(xy 260.35 31.75) (xy 260.35 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9a0432-dfc9-47b3-abdd-aa907c19dccc")
 	)
 	(wire
 		(pts
@@ -4720,7 +4615,17 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 36.83) (xy 258.445 41.91)
+			(xy 256.54 31.75) (xy 260.35 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80d8609-a8d2-4d9b-af58-106f9e9ceaaa")
+	)
+	(wire
+		(pts
+			(xy 259.08 36.83) (xy 259.08 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4740,7 +4645,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 114.3) (xy 88.265 114.3)
+			(xy 260.35 31.75) (xy 260.35 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb82d4d3-d340-4a55-ada1-8781f31ee540")
+	)
+	(wire
+		(pts
+			(xy 85.09 114.3) (xy 88.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4810,16 +4725,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 31.75) (xy 260.35 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd51d09-d19e-4f32-8ee8-82fd7af018d3")
-	)
-	(wire
-		(pts
 			(xy 270.51 63.5) (xy 270.51 54.61)
 		)
 		(stroke
@@ -4830,7 +4735,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 111.76) (xy 93.98 111.76)
+			(xy 88.9 111.76) (xy 93.98 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4840,7 +4745,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 31.75) (xy 212.725 31.75)
+			(xy 215.9 31.75) (xy 213.36 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8455,6 +8360,16 @@
 		)
 		(uuid "3d3341a7-6677-4643-8f0a-a76449732f10")
 	)
+	(label "+5V"
+		(at 44.45 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d98b606-aca4-40c8-b2f2-c29d5ce4c48f")
+	)
 	(label "CHARGED"
 		(at 198.12 46.99 0)
 		(effects
@@ -8494,6 +8409,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ba7afb1-fd6e-43de-99ca-534f693f95f8")
+	)
+	(label "+5V"
+		(at 260.35 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66f102aa-c7ac-46ec-830b-6aaf18b63759")
 	)
 	(label "+5V_USB"
 		(at 215.9 31.75 180)
@@ -8641,7 +8566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
+		(property "Footprint" "ESP32 Project Libraries:JST_B2B-PH-SM4-TB"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -8896,7 +8821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SS-52400-002:BELFUSE_SS-52400-002"
+		(property "Footprint" "ESP32 Project Libraries:BELFUSE_SS-52400-002"
 			(at 59.69 45.72 0)
 			(effects
 				(font
@@ -9176,7 +9101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.79 171.958 90)
 			(effects
 				(font
@@ -9443,7 +9368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
 			(at 100.66 77.47 0)
 			(effects
 				(font
@@ -9558,6 +9483,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24545cc3-677e-4469-81e8-3a66d6519b24")
+		(property "Reference" "#FLG03"
+			(at 96.52 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9d807e1-8f63-4fad-80cc-c9fbff01e6b8")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 44.45 119.38 0)
 		(unit 1)
@@ -9585,7 +9576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 45.4152 123.19 0)
 			(effects
 				(font
@@ -9827,73 +9818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 29.21 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f494eb4-fc15-48ca-b2e6-1ad39923d306")
-		(property "Reference" "#PWR020"
-			(at 33.02 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 25.4 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c61d310b-010f-499b-a67e-6092cc77df95")
-		)
-		(instances
-			(project ""
-				(path "/f5734d9e-f791-424c-8afd-659e65fe183d"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 264.16 67.31 180)
 		(unit 1)
@@ -9920,7 +9844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 265.938 67.31 90)
 			(effects
 				(font
@@ -9972,7 +9896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54f5c67f-fc60-47f7-97fa-be867cdc8bf7")
-		(property "Reference" "VR1"
+		(property "Reference" "U8"
 			(at 67.31 104.14 0)
 			(effects
 				(font
@@ -9988,7 +9912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM1117MPX-3.3:VREG_LM1117MPX-3.3"
+		(property "Footprint" "ESP32 Project Libraries:VREG_LM1117MPX-3.3"
 			(at 67.31 114.3 0)
 			(effects
 				(font
@@ -10161,7 +10085,7 @@
 		(instances
 			(project ""
 				(path "/f5734d9e-f791-424c-8afd-659e65fe183d"
-					(reference "VR1")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -10260,7 +10184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
 			(at 89.23 77.47 0)
 			(effects
 				(font
@@ -10400,7 +10324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 199.39 35.2552 0)
 			(effects
 				(font
@@ -10668,7 +10592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
 			(at 76.53 77.47 0)
 			(effects
 				(font
@@ -10875,7 +10799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 93.218 64.77 90)
 			(effects
 				(font
@@ -10945,7 +10869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 106.3752 123.19 0)
 			(effects
 				(font
@@ -11146,7 +11070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
 			(at 76.2 76.53 0)
 			(effects
 				(font
@@ -11285,7 +11209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 262.89 51.308 90)
 			(effects
 				(font
@@ -11420,7 +11344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 171.958 55.88 90)
 			(effects
 				(font
@@ -11490,7 +11414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
 			(at 94.9452 123.19 0)
 			(effects
 				(font
@@ -11755,7 +11679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 210.82 58.928 90)
 			(effects
 				(font
@@ -11890,7 +11814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 184.658 55.88 90)
 			(effects
 				(font
@@ -12090,7 +12014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP73871-2CAI_ML:QFN50P400X400X100-21N"
+		(property "Footprint" "ESP32 Project Libraries:QFN50P400X400X100-21N"
 			(at 236.22 46.99 0)
 			(effects
 				(font
@@ -12337,7 +12261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 272.288 67.31 90)
 			(effects
 				(font
@@ -12471,7 +12395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC3226X100N"
+		(property "Footprint" "ESP32 Project Libraries:FUSC3226X100N"
 			(at 111.76 134.29 0)
 			(effects
 				(font
@@ -12679,7 +12603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 33.9852 123.19 0)
 			(effects
 				(font
@@ -12722,72 +12646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 260.35 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddec282b-7205-4c70-8b47-42ed10763097")
-		(property "Reference" "#PWR024"
-			(at 260.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 260.35 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3672f8b4-52e1-4e77-9bf4-28948db7b4cd")
-		)
-		(instances
-			(project "ESP32_IoT_Board"
-				(path "/f5734d9e-f791-424c-8afd-659e65fe183d"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 194.31 55.88 180)
 		(unit 1)
@@ -12814,7 +12672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.088 55.88 90)
 			(effects
 				(font
@@ -12883,7 +12741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 25.908 64.77 90)
 			(effects
 				(font
@@ -12953,7 +12811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 97.4852 49.53 0)
 			(effects
 				(font
@@ -13062,13 +12920,12 @@
 		)
 	)
 	(sheet
-		(at 144.145 116.84)
-		(size 20.955 27.94)
+		(at 144.78 116.84)
+		(size 20.32 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -13079,7 +12936,7 @@
 		)
 		(uuid "9d531cc9-8202-4c1d-9a61-f26531e8619f")
 		(property "Sheetname" "ESP32-C3-02"
-			(at 144.145 116.1284 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13088,7 +12945,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32-c3-02.kicad_sch"
-			(at 144.145 145.3646 0)
+			(at 144.78 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

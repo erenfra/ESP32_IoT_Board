@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "38bfbebb-de30-4f22-a671-838d430bba1c")
+	(uuid "6fac3c36-7266-426e-ba0f-7ce5b37efb8e")
 	(paper "A4")
 	(title_block
 		(title "Sensors")
@@ -1908,7 +1908,7 @@
 		(uuid "3b4c976b-2f47-46a6-8df8-8d6ca1be9cec")
 	)
 	(junction
-		(at 203.835 80.01)
+		(at 204.47 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f14fe99-3648-4113-a47e-d368ddc5b893")
@@ -1938,7 +1938,7 @@
 		(uuid "7cba0024-3d23-42cf-9455-9cf10fcb3754")
 	)
 	(junction
-		(at 177.165 60.96)
+		(at 177.8 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94aeb807-cd6c-4c9a-b978-41a20d7c040b")
@@ -1950,7 +1950,7 @@
 		(uuid "9ba66d38-a211-49d4-8fcb-41ac69f4c7d4")
 	)
 	(junction
-		(at 216.535 58.42)
+		(at 217.17 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a152a5d3-6f69-4049-8d20-1a0803028bc7")
@@ -1962,7 +1962,7 @@
 		(uuid "bbfa4881-abeb-477c-9b94-a586d1dcf3ec")
 	)
 	(junction
-		(at 161.29 32.385)
+		(at 161.29 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c067e0ad-7fbe-4d20-aa57-c790744d86ca")
@@ -1979,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 35.56) (xy 147.32 32.385)
+			(xy 147.32 35.56) (xy 147.32 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 32.385) (xy 161.29 32.385)
+			(xy 147.32 33.02) (xy 161.29 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 203.835 90.17)
+			(xy 200.66 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 30.48) (xy 161.29 32.385)
+			(xy 161.29 30.48) (xy 161.29 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 80.01) (xy 216.535 80.01)
+			(xy 204.47 80.01) (xy 217.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 216.535 80.01) (xy 216.535 58.42)
+			(xy 217.17 80.01) (xy 217.17 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 32.385) (xy 161.29 41.91)
+			(xy 161.29 33.02) (xy 161.29 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 60.96) (xy 179.07 60.96)
+			(xy 177.8 60.96) (xy 179.07 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 80.01) (xy 177.165 80.01)
+			(xy 189.23 80.01) (xy 177.8 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2409,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 203.835 80.01)
+			(xy 200.66 80.01) (xy 204.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 58.42) (xy 216.535 58.42)
+			(xy 219.71 58.42) (xy 217.17 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 177.165 60.96)
+			(xy 167.64 60.96) (xy 177.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2449,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 90.17) (xy 203.835 80.01)
+			(xy 204.47 90.17) (xy 204.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2519,7 +2519,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 80.01) (xy 177.165 60.96)
+			(xy 177.8 80.01) (xy 177.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 216.535 58.42) (xy 214.63 58.42)
+			(xy 217.17 58.42) (xy 214.63 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6232,7 +6232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME280:PSON65P250X250X100-8N"
+		(property "Footprint" "ESP32 Project Libraries:PSON65P250X250X100-8N"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -6448,7 +6448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.85 81.788 90)
 			(effects
 				(font
@@ -6584,7 +6584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 159.512 45.72 90)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 168.6052 83.82 0)
 			(effects
 				(font
@@ -6787,7 +6787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 29.972 53.34 90)
 			(effects
 				(font
@@ -6923,7 +6923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 145.542 39.37 90)
 			(effects
 				(font
@@ -6993,7 +6993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 145.542 52.07 90)
 			(effects
 				(font
@@ -7061,7 +7061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TEMT6000X01:TRANS_TEMT6000X01"
+		(property "Footprint" "ESP32 Project Libraries:TRANS_TEMT6000X01"
 			(at 81.28 121.92 0)
 			(effects
 				(font
@@ -7307,7 +7307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 165.862 69.85 90)
 			(effects
 				(font
@@ -7375,7 +7375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
+		(property "Footprint" "ESP32 Project Libraries:CUI_CMC-5042PF-AC"
 			(at 130.81 60.96 0)
 			(effects
 				(font
@@ -7609,7 +7609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 193.04 91.1352 0)
 			(effects
 				(font
@@ -7676,7 +7676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 135.89 46.6852 0)
 			(effects
 				(font
@@ -8009,7 +8009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX4466EXK:SOT65P210X110-5N"
+		(property "Footprint" "ESP32 Project Libraries:SOT65P210X110-5N"
 			(at 196.85 60.96 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 151.13 59.3852 0)
 			(effects
 				(font
@@ -8302,7 +8302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 38.862 53.34 90)
 			(effects
 				(font
@@ -8438,7 +8438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.932 116.84 90)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 159.512 69.85 90)
 			(effects
 				(font
@@ -8643,7 +8643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 88.5952 64.77 0)
 			(effects
 				(font
@@ -8779,7 +8779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.3752 64.77 0)
 			(effects
 				(font
