@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "71658f15-2ec1-40a8-98e0-215526c04e1f")
+	(uuid "f54d816a-6fdd-447b-a2d6-c415b07b529b")
 	(paper "A4")
 	(title_block
 		(title "ESP32 - USB Module - Flash Memory - SD Card")
