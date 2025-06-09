@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f54d816a-6fdd-447b-a2d6-c415b07b529b")
+	(uuid "2d5d9b45-28b8-45d4-8567-8dc0e934b87a")
 	(paper "A4")
 	(title_block
 		(title "ESP32 - USB Module - Flash Memory - SD Card")
@@ -8761,7 +8761,7 @@
 		(uuid "2bc53c13-b72f-4738-bbd9-dd4c8a92ca85")
 	)
 	(label "CS_SD"
-		(at 196.85 53.34 180)
+		(at 196.85 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8931,7 +8931,7 @@
 		(uuid "7015ceaa-97d8-43a2-b95f-80550af5a98b")
 	)
 	(label "MIC_OUT"
-		(at 196.85 66.04 180)
+		(at 196.85 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)

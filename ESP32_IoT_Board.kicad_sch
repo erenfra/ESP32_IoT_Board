@@ -3722,8 +3722,8 @@
 		(uuid c4c355e3-8561-42e3-9409-62f49358e1bd)
 	)
 	(rectangle
-		(start 161.29 18.415)
-		(end 278.765 92.71)
+		(start 151.13 18.415)
+		(end 272.415 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -3735,7 +3735,7 @@
 	)
 	(text "LiPO Charger"
 		(exclude_from_sim no)
-		(at 167.64 16.51 0)
+		(at 157.48 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3796,25 +3796,31 @@
 		(uuid "4f47dad9-b015-4a46-8fb9-c5e275b9a7c4")
 	)
 	(junction
-		(at 182.88 86.36)
+		(at 39.37 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4b5cd44-725a-42cb-b704-414d495167b0")
+	)
+	(junction
+		(at 172.72 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b968e2bf-f938-4a0d-aeb7-b5a7825a9e07")
 	)
 	(junction
-		(at 257.81 71.12)
+		(at 247.65 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1a52da8-047f-4cde-b459-bfe029bf27c8")
 	)
 	(junction
-		(at 213.36 34.29)
+		(at 203.2 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3e8962a-9c6d-49ce-a6b8-718378ed98e4")
 	)
 	(junction
-		(at 204.47 57.15)
+		(at 194.31 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb6b7602-7356-4e1e-b97f-5f19873703fe")
@@ -3885,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 49.53) (xy 274.32 52.07)
+			(xy 264.16 49.53) (xy 264.16 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3895,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 36.83) (xy 215.9 36.83)
+			(xy 203.2 36.83) (xy 205.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3935,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 57.15) (xy 204.47 57.15)
+			(xy 196.85 57.15) (xy 194.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3955,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 64.77) (xy 257.81 64.77)
+			(xy 246.38 64.77) (xy 247.65 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3975,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 52.07) (xy 204.47 57.15)
+			(xy 194.31 52.07) (xy 194.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4025,7 +4031,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 182.88 86.36)
+			(xy 160.02 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4035,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 57.15) (xy 215.9 57.15)
+			(xy 204.47 57.15) (xy 205.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4065,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 41.91) (xy 256.54 41.91)
+			(xy 248.92 41.91) (xy 246.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +4111,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 54.61) (xy 256.54 54.61)
+			(xy 260.35 54.61) (xy 246.38 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4115,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 46.99) (xy 194.31 52.07)
+			(xy 184.15 46.99) (xy 184.15 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 63.5) (xy 264.16 59.69)
+			(xy 254 63.5) (xy 254 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4145,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 182.88 90.17)
+			(xy 172.72 86.36) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4165,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 194.31 86.36)
+			(xy 172.72 86.36) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4185,7 +4191,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 49.53) (xy 274.32 49.53)
+			(xy 256.54 49.53) (xy 264.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4215,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 34.29) (xy 213.36 36.83)
+			(xy 203.2 34.29) (xy 203.2 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4255,7 +4261,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 71.12) (xy 257.81 74.93)
+			(xy 247.65 71.12) (xy 247.65 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4275,7 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 44.45) (xy 182.88 52.07)
+			(xy 172.72 44.45) (xy 172.72 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4315,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 34.29) (xy 213.36 34.29)
+			(xy 196.85 34.29) (xy 203.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4325,7 +4331,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 52.07) (xy 204.47 52.07)
+			(xy 246.38 31.75) (xy 247.65 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e621f10-f7f7-46c2-a6b9-36e58bafec35")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4345,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 170.18 64.77)
+			(xy 160.02 59.69) (xy 160.02 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4365,7 +4381,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 64.77) (xy 257.81 71.12)
+			(xy 247.65 64.77) (xy 247.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4375,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 80.01) (xy 170.18 86.36)
+			(xy 160.02 80.01) (xy 160.02 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4385,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 36.83) (xy 259.08 36.83)
+			(xy 246.38 36.83) (xy 248.92 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4395,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 57.15) (xy 204.47 60.96)
+			(xy 194.31 57.15) (xy 194.31 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4425,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 41.91) (xy 170.18 41.91)
+			(xy 205.74 41.91) (xy 160.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4435,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 49.53) (xy 259.08 49.53)
+			(xy 246.38 49.53) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4465,7 +4481,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 71.12) (xy 264.16 74.93)
+			(xy 254 71.12) (xy 254 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4475,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 31.75) (xy 213.36 34.29)
+			(xy 203.2 31.75) (xy 203.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4485,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 194.31 86.36)
+			(xy 184.15 80.01) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4495,7 +4511,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 59.69) (xy 194.31 64.77)
+			(xy 184.15 59.69) (xy 184.15 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4505,7 +4521,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 59.69) (xy 182.88 64.77)
+			(xy 172.72 59.69) (xy 172.72 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4535,7 +4551,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 34.29) (xy 199.39 34.29)
+			(xy 184.15 34.29) (xy 189.23 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4555,7 +4571,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 111.76) (xy 33.02 111.76)
+			(xy 44.45 111.76) (xy 39.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4585,7 +4601,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 44.45) (xy 182.88 44.45)
+			(xy 267.97 25.4) (xy 267.97 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b387e923-3a8c-4984-bd30-c9a8120955c8")
+	)
+	(wire
+		(pts
+			(xy 205.74 44.45) (xy 172.72 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4605,7 +4631,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 71.12) (xy 257.81 71.12)
+			(xy 243.84 71.12) (xy 247.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4615,17 +4641,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 31.75) (xy 260.35 31.75)
+			(xy 39.37 111.76) (xy 33.02 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b80d8609-a8d2-4d9b-af58-106f9e9ceaaa")
+		(uuid "b90bebed-b3a0-44fa-9697-6afecbc42c88")
 	)
 	(wire
 		(pts
-			(xy 259.08 36.83) (xy 259.08 41.91)
+			(xy 248.92 36.83) (xy 248.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4642,16 +4668,6 @@
 			(type default)
 		)
 		(uuid "bb57ff36-52e8-4488-ba90-38a9e5fc49c5")
-	)
-	(wire
-		(pts
-			(xy 260.35 31.75) (xy 260.35 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb82d4d3-d340-4a55-ada1-8781f31ee540")
 	)
 	(wire
 		(pts
@@ -4675,7 +4691,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 41.91) (xy 170.18 52.07)
+			(xy 160.02 41.91) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4725,7 +4741,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 63.5) (xy 270.51 54.61)
+			(xy 260.35 63.5) (xy 260.35 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4745,7 +4761,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 31.75) (xy 213.36 31.75)
+			(xy 205.74 31.75) (xy 203.2 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4775,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 71.12) (xy 270.51 74.93)
+			(xy 260.35 71.12) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4785,7 +4801,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 59.69) (xy 256.54 59.69)
+			(xy 254 59.69) (xy 246.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4795,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 46.99) (xy 194.31 46.99)
+			(xy 205.74 46.99) (xy 184.15 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4805,13 +4821,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 182.88 86.36)
+			(xy 172.72 80.01) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eac4f21e-5c89-4d87-9acb-74a2b12353ce")
+	)
+	(wire
+		(pts
+			(xy 267.97 31.75) (xy 265.43 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f146fd6e-8b68-470c-bd9e-0ce64a5a4f49")
 	)
 	(wire
 		(pts
@@ -8301,7 +8327,7 @@
 		)
 	)
 	(label "+5V_USB"
-		(at 215.9 59.69 270)
+		(at 205.74 59.69 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8371,7 +8397,7 @@
 		(uuid "3d98b606-aca4-40c8-b2f2-c29d5ce4c48f")
 	)
 	(label "CHARGED"
-		(at 198.12 46.99 0)
+		(at 187.96 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8381,7 +8407,7 @@
 		(uuid "4466c6d4-f441-4813-9f5b-4162f21ddaec")
 	)
 	(label "+5V_USB"
-		(at 182.88 90.17 180)
+		(at 172.72 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8411,7 +8437,7 @@
 		(uuid "5ba7afb1-fd6e-43de-99ca-534f693f95f8")
 	)
 	(label "+5V"
-		(at 260.35 29.21 0)
+		(at 267.97 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8421,7 +8447,7 @@
 		(uuid "66f102aa-c7ac-46ec-830b-6aaf18b63759")
 	)
 	(label "+5V_USB"
-		(at 215.9 31.75 180)
+		(at 205.74 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8461,7 +8487,7 @@
 		(uuid "9d2399f0-d17e-4817-9a9c-b5dbc45e78b8")
 	)
 	(label "VBAT"
-		(at 256.54 36.83 0)
+		(at 246.38 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8481,7 +8507,7 @@
 		(uuid "a8a7f742-1d5f-407e-9a1b-0cea5806aead")
 	)
 	(label "+5V_USB"
-		(at 215.9 54.61 180)
+		(at 205.74 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8491,7 +8517,7 @@
 		(uuid "ac07b66e-858d-4f82-b3ad-ce4a82ea7bff")
 	)
 	(label "CHARGING_POWER_GOOD"
-		(at 186.69 44.45 0)
+		(at 176.53 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8511,7 +8537,7 @@
 		(uuid "bf29a0ab-7e6d-4e42-9093-5a419de2b221")
 	)
 	(label "CHARGING"
-		(at 172.72 41.91 0)
+		(at 162.56 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8731,7 +8757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 60.96 0)
+		(at 194.31 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8740,7 +8766,7 @@
 		(fields_autoplaced yes)
 		(uuid "0700a815-01d0-4960-803f-1ed4bce39927")
 		(property "Reference" "#PWR04"
-			(at 204.47 67.31 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 66.04 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +8783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 60.96 0)
+			(at 194.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +8792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 60.96 0)
+			(at 194.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +8801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 60.96 0)
+			(at 194.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,6 +9236,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ffe8f3d-7147-435c-966a-7295783cfdee")
+		(property "Reference" "#FLG04"
+			(at 39.37 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04842923-6b7c-4045-8d06-0b829b343d13")
+		)
+		(instances
+			(project ""
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 73.66 0)
 		(unit 1)
@@ -9343,7 +9435,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170GKT:LTST-C170GKT")
-		(at 194.31 64.77 270)
+		(at 184.15 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9351,7 +9443,7 @@
 		(dnp no)
 		(uuid "19d7eaf8-af65-48c1-af4e-015ac1df232e")
 		(property "Reference" "LED2"
-			(at 195.58 67.31 90)
+			(at 185.42 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9452,7 @@
 			)
 		)
 		(property "Value" "LTST-C170GKT"
-			(at 190.5 64.77 0)
+			(at 180.34 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9461,7 @@
 			)
 		)
 		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
-			(at 100.66 77.47 0)
+			(at 90.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9471,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/895/LTST-C170GKT.pdf"
-			(at 0.66 77.47 0)
+			(at -9.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,7 +9481,7 @@
 			)
 		)
 		(property "Description" "LED,SMD,0805,Green,6mcd,130deg Lite-On LTST-C170GKT, CHIPLED 0805 Series Green LED, 569 nm 2012 (0805), Rectangle Lens SMD package"
-			(at 194.31 64.77 0)
+			(at 184.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9490,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at -199.34 77.47 0)
+			(at -209.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,7 +9500,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at -299.34 77.47 0)
+			(at -309.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9510,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C170GKT"
-			(at -399.34 77.47 0)
+			(at -409.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9520,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-C170GKT"
-			(at -499.34 77.47 0)
+			(at -509.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9530,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170GKT?qs=%2FSqKn2EfXQSV5aRij3YIfQ%3D%3D"
-			(at -599.34 77.47 0)
+			(at -609.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,7 +9540,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LTST-C170GKT"
-			(at -699.34 77.47 0)
+			(at -709.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9550,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170gkt/lite-on-technology?utm_currency=USD&region=nac"
-			(at -799.34 77.47 0)
+			(at -809.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9712,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 254 71.12 90)
+		(at 243.84 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9629,7 +9721,7 @@
 		(fields_autoplaced yes)
 		(uuid "286e78eb-9aa6-4ccb-9c94-c9dde2f5c669")
 		(property "Reference" "#FLG01"
-			(at 252.095 71.12 0)
+			(at 241.935 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +9730,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 250.19 71.1199 90)
+			(at 240.03 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 71.12 0)
+			(at 243.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 71.12 0)
+			(at 243.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9757,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 254 71.12 0)
+			(at 243.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,7 +9779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 74.93 0)
+		(at 254 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9696,7 +9788,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ad27cc1-2370-4585-a2d3-07b13b22d33d")
 		(property "Reference" "#PWR03"
-			(at 264.16 81.28 0)
+			(at 254 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +9797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 80.01 0)
+			(at 254 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 74.93 0)
+			(at 254 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,7 +9814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 74.93 0)
+			(at 254 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,7 +9823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 74.93 0)
+			(at 254 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +9911,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.16 67.31 180)
+		(at 254 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9827,7 +9919,7 @@
 		(dnp no)
 		(uuid "44b1aa6f-852d-40ea-ac90-ca030fb5932f")
 		(property "Reference" "R6"
-			(at 265.43 67.31 0)
+			(at 255.27 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9928,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 264.16 69.091 90)
+			(at 254 69.091 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +9937,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 265.938 67.31 90)
+			(at 255.778 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +9946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 67.31 0)
+			(at 254 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,7 +9955,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 264.16 67.31 0)
+			(at 254 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10251,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170TBKT:LTST-C170TBKT")
-		(at 182.88 64.77 270)
+		(at 172.72 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10167,7 +10259,7 @@
 		(dnp no)
 		(uuid "5a8ec979-f1e9-4526-a034-afcd416b314b")
 		(property "Reference" "LED3"
-			(at 184.15 67.31 90)
+			(at 173.99 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +10268,7 @@
 			)
 		)
 		(property "Value" "LTST-C170TBKT"
-			(at 179.07 63.5 0)
+			(at 168.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10277,7 @@
 			)
 		)
 		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
-			(at 89.23 77.47 0)
+			(at 79.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10287,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170TBKT.pdf"
-			(at -10.77 77.47 0)
+			(at -20.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10297,7 @@
 			)
 		)
 		(property "Description" "LED,SMD,0805,Blue,28mcd,130deg"
-			(at 182.88 64.77 0)
+			(at 172.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10306,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at -210.77 77.47 0)
+			(at -220.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10316,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at -310.77 77.47 0)
+			(at -320.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +10326,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C170TBKT"
-			(at -410.77 77.47 0)
+			(at -420.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,7 +10336,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-C170TBKT"
-			(at -510.77 77.47 0)
+			(at -520.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10346,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170TBKT?qs=0uL0gcxEMop2ooGmIUzw3A%3D%3D"
-			(at -610.77 77.47 0)
+			(at -620.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10356,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LTST-C170TBKT"
-			(at -710.77 77.47 0)
+			(at -720.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +10366,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170tbkt/lite-on-technology?utm_currency=USD&region=nac"
-			(at -810.77 77.47 0)
+			(at -820.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10392,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 34.29 270)
+		(at 193.04 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10309,7 +10401,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b20fbdc-e77f-4f26-8b00-1b79e225ea3d")
 		(property "Reference" "C6"
-			(at 203.2 26.67 90)
+			(at 193.04 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10409,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 203.2 29.21 90)
+			(at 193.04 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10325,7 +10417,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 199.39 35.2552 0)
+			(at 189.23 35.2552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +10426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 34.29 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +10435,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 34.29 0)
+			(at 193.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 34.29 270)
+		(at 184.15 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10509,7 +10601,7 @@
 		(fields_autoplaced yes)
 		(uuid "63828869-506b-47eb-a431-79274a5c54a8")
 		(property "Reference" "#PWR013"
-			(at 187.96 34.29 0)
+			(at 177.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10518,7 +10610,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 34.2899 90)
+			(at 180.34 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +10619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 34.29 0)
+			(at 184.15 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 34.29 0)
+			(at 184.15 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +10637,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 34.29 0)
+			(at 184.15 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,7 +10659,7 @@
 	)
 	(symbol
 		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
-		(at 170.18 64.77 270)
+		(at 160.02 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10575,7 +10667,7 @@
 		(dnp no)
 		(uuid "6ca324de-f332-4d47-a47b-204a2f0e7507")
 		(property "Reference" "LED1"
-			(at 171.45 67.31 90)
+			(at 161.29 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10676,7 @@
 			)
 		)
 		(property "Value" "LTST-C170KRKT"
-			(at 166.37 63.5 0)
+			(at 156.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +10685,7 @@
 			)
 		)
 		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
-			(at 76.53 77.47 0)
+			(at 66.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10695,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
-			(at -23.47 77.47 0)
+			(at -33.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,7 +10705,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
-			(at 170.18 64.77 0)
+			(at 160.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10714,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at -223.47 77.47 0)
+			(at -233.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10724,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at -323.47 77.47 0)
+			(at -333.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10734,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
-			(at -423.47 77.47 0)
+			(at -433.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10744,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-C170KRKT"
-			(at -523.47 77.47 0)
+			(at -533.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10754,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
-			(at -623.47 77.47 0)
+			(at -633.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,7 +10764,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LTST-C170KRKT"
-			(at -723.47 77.47 0)
+			(at -733.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10774,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
-			(at -823.47 77.47 0)
+			(at -833.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10800,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 74.93 0)
+		(at 260.35 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10717,7 +10809,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ec40d8b-4f81-47fd-a6ff-3a4eb6c84603")
 		(property "Reference" "#PWR02"
-			(at 270.51 81.28 0)
+			(at 260.35 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +10818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 80.01 0)
+			(at 260.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 74.93 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 74.93 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10752,7 +10844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 74.93 0)
+			(at 260.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,6 +11136,146 @@
 		)
 	)
 	(symbol
+		(lib_id "0ZCH0110AF2E:0ZCH0110AF2E")
+		(at 247.65 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83d155fc-64e9-4b15-a922-46fa3e97d1d6")
+		(property "Reference" "F2"
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0ZCH0110AF2E"
+			(at 256.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESP32 Project Libraries:FUSC3226X100N"
+			(at 261.62 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zch-series.pdf"
+			(at 261.62 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1210 SMT PPTC | 1.10 Ih | 16V"
+			(at 247.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 261.62 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bel Circuit Protection"
+			(at 261.62 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0ZCH0110AF2E"
+			(at 261.62 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 261.62 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 261.62 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 261.62 927.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 261.62 1027.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a71adbfa-4c91-4cf3-9f1f-0dac52e1af69")
+		)
+		(pin "1"
+			(uuid "57734561-0606-4620-ab80-b6fec135e1c9")
+		)
+		(instances
+			(project ""
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
 		(at 88.9 170.18 180)
 		(unit 1)
@@ -11186,7 +11418,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 262.89 49.53 90)
+		(at 252.73 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11194,7 +11426,7 @@
 		(dnp no)
 		(uuid "87c0882c-bf52-416c-9c20-0f17f3fc6998")
 		(property "Reference" "R2"
-			(at 262.89 46.99 90)
+			(at 252.73 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11434,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 262.89 49.53 90)
+			(at 252.73 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11442,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 262.89 51.308 90)
+			(at 252.73 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +11451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 49.53 0)
+			(at 252.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +11460,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 262.89 49.53 0)
+			(at 252.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,7 +11551,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 55.88 180)
+		(at 160.02 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11327,7 +11559,7 @@
 		(dnp no)
 		(uuid "9141eb23-0f13-496c-bf01-7d1bac23c6de")
 		(property "Reference" "R9"
-			(at 171.45 55.88 0)
+			(at 161.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11336,7 +11568,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 170.18 57.9797 90)
+			(at 160.02 57.9797 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11577,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.958 55.88 90)
+			(at 161.798 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 55.88 0)
+			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11363,7 +11595,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 55.88 0)
+			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11690,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 274.32 52.07 0)
+		(at 264.16 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11467,7 +11699,7 @@
 		(fields_autoplaced yes)
 		(uuid "947e104c-9203-41a4-8cff-e6b75d3a0e7e")
 		(property "Reference" "#PWR01"
-			(at 274.32 58.42 0)
+			(at 264.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11708,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 57.15 0)
+			(at 264.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,7 +11716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 52.07 0)
+			(at 264.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +11725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 52.07 0)
+			(at 264.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +11734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 52.07 0)
+			(at 264.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11888,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 57.15 90)
+		(at 200.66 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11664,7 +11896,7 @@
 		(dnp no)
 		(uuid "b5776b23-f837-4a8d-8ba9-799a1c88f2b2")
 		(property "Reference" "R1"
-			(at 210.82 59.69 90)
+			(at 200.66 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11672,7 +11904,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.82 57.15 90)
+			(at 200.66 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +11912,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 210.82 58.928 90)
+			(at 200.66 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +11921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +11930,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11789,7 +12021,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 55.88 180)
+		(at 172.72 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11797,7 +12029,7 @@
 		(dnp no)
 		(uuid "bcee8eaf-e1b3-4a4f-881d-dbc5142e8fb8")
 		(property "Reference" "R7"
-			(at 184.15 55.88 0)
+			(at 173.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +12038,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 182.88 57.9797 90)
+			(at 172.72 57.9797 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +12047,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 184.658 55.88 90)
+			(at 174.498 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11824,7 +12056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 55.88 0)
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +12065,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 55.88 0)
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +12222,7 @@
 	)
 	(symbol
 		(lib_id "MCP73871-2CAI_ML:MCP73871-2CAI_ML")
-		(at 236.22 46.99 0)
+		(at 226.06 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11999,7 +12231,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb392225-5324-47fc-8eae-17fe083563eb")
 		(property "Reference" "U1"
-			(at 236.22 24.13 0)
+			(at 226.06 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +12239,7 @@
 			)
 		)
 		(property "Value" "MCP73871-2CAI_ML"
-			(at 236.22 26.67 0)
+			(at 226.06 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,7 +12247,7 @@
 			)
 		)
 		(property "Footprint" "ESP32 Project Libraries:QFN50P400X400X100-21N"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +12257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +12275,7 @@
 			)
 		)
 		(property "MF" "Microchip"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12053,7 +12285,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "22102"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12063,7 +12295,7 @@
 			)
 		)
 		(property "Package" "QFN-20 Microchip"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12305,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,7 +12315,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MCP73871-2CAI/ML/Microchip/view-part/?ref=eda"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12325,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +12335,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +12345,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCP73871-2CAI/ML/Microchip/view-part/?ref=snap"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12355,7 @@
 			)
 		)
 		(property "MP" "MCP73871-2CAI/ML"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12133,7 +12365,7 @@
 			)
 		)
 		(property "Description_1" "Microchip MCP73871-2CAI/ML, Battery Charge Controller, 1000mA, 20-Pin QFN | Microchip Technology Inc. MCP73871-2CAI/ML"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12143,7 +12375,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +12385,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Microchip Corp."
-			(at 236.22 46.99 0)
+			(at 226.06 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12468,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 270.51 67.31 180)
+		(at 260.35 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12244,7 +12476,7 @@
 		(dnp no)
 		(uuid "cd9ff1bd-ccb3-457d-950a-3f0e2e3e07d7")
 		(property "Reference" "R5"
-			(at 271.78 67.31 0)
+			(at 261.62 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,7 +12485,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 270.51 68.58 90)
+			(at 260.35 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12494,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 272.288 67.31 90)
+			(at 262.128 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 67.31 0)
+			(at 260.35 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12280,7 +12512,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 270.51 67.31 0)
+			(at 260.35 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12511,7 +12743,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 74.93 0)
+		(at 247.65 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12520,7 +12752,7 @@
 		(fields_autoplaced yes)
 		(uuid "d20e3714-cf67-4ffa-9932-c1907763ad69")
 		(property "Reference" "#PWR012"
-			(at 257.81 81.28 0)
+			(at 247.65 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12529,7 +12761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 80.01 0)
+			(at 247.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 74.93 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 74.93 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 74.93 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12879,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 55.88 180)
+		(at 184.15 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12655,7 +12887,7 @@
 		(dnp no)
 		(uuid "de224d81-7c5f-4696-afa2-4688da49c9a6")
 		(property "Reference" "R8"
-			(at 195.58 55.88 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +12896,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 194.31 57.5939 90)
+			(at 184.15 57.5939 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,7 +12905,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.088 55.88 90)
+			(at 185.928 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12682,7 +12914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 55.88 0)
+			(at 184.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12691,7 +12923,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 55.88 0)
+			(at 184.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

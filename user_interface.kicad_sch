@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "80c7a515-0bfb-456f-8e50-0e369e9d4b5b")
+	(uuid "7bb54d58-179b-4524-a43f-ec57477e3d7a")
 	(paper "A4")
 	(title_block
 		(title "User Interface")
@@ -246,292 +246,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x05_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -805,6 +519,881 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LTST-C170GKT:LTST-C170GKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170GKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/895/LTST-C170GKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED,SMD,0805,Green,6mcd,130deg Lite-On LTST-C170GKT, CHIPLED 0805 Series Green LED, 569 nm 2012 (0805), Rectangle Lens SMD package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170GKT"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170GKT"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170GKT?qs=%2FSqKn2EfXQSV5aRij3YIfQ%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LTST-C170GKT"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170gkt/lite-on-technology?utm_currency=USD&region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170GKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LTST-C170KRKT:LTST-C170KRKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170KRKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170KRKT"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LTST-C170KRKT"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170KRKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TL3305AF260QG:TL3305AF260QG"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL3305AF260QG"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TL3305AF260QG:SW_TL3305AF260QG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-4 E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TL3305AF260QG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL3305AF260QG_0_0"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC817"
 			(pin_names
 				(offset 0)
@@ -1003,398 +1592,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "USLPT2819DT2TR:USLPT2819DT2TR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "USLPT2819DT2TR"
-				(at -5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "USLPT2819DT2TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TE CONNECTIVITY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "USLPT2819DT2TR_0_0"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.143) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0.762)
-					(radius 0.3592)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -0.762)
-					(radius 0.3592)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.016) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "T1"
-					(at -4.572 1.27 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T3"
-					(at -4.572 -2.032 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T2"
-					(at 3.556 1.27 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "T4"
-					(at 3.556 -2.032 0)
-					(effects
-						(font
-							(size 0.8128 0.8128)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1654,8 +1851,8 @@
 		(uuid 1aa5cfa2-2338-463b-9e05-10bc49b36f44)
 	)
 	(rectangle
-		(start 58.42 78.105)
-		(end 92.075 111.76)
+		(start 38.735 89.535)
+		(end 98.425 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -1667,7 +1864,7 @@
 	)
 	(text "Breakout GPIO Pins"
 		(exclude_from_sim no)
-		(at 67.31 76.2 0)
+		(at 48.26 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1696,10 +1893,28 @@
 		(uuid "afd0a4d2-a255-4a05-93e1-f9e6ff44fc95")
 	)
 	(junction
+		(at 165.1 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d0ff10a-ba3e-4f92-ac99-990f86db8c96")
+	)
+	(junction
+		(at 217.17 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3389f4ce-6db1-4d4a-b82c-e0548ac22157")
+	)
+	(junction
 		(at 137.16 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f3d67db-ac30-4bb7-86b5-231ae9d385f3")
+	)
+	(junction
+		(at 55.88 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ef66da1-410f-44ca-918f-0c66cd43b53d")
 	)
 	(junction
 		(at 190.5 49.53)
@@ -1708,19 +1923,7 @@
 		(uuid "53bcb4c8-4bfc-4f44-bb90-472455066f09")
 	)
 	(junction
-		(at 157.48 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5573749a-a1bb-44e0-8a48-acefdb1bdaa7")
-	)
-	(junction
-		(at 208.28 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aa4c0e6-693e-451f-885f-9892c812e4c6")
-	)
-	(junction
-		(at 152.4 110.49)
+		(at 137.16 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d993a05-17c0-44f2-aebc-7e00f91202cc")
@@ -1732,7 +1935,13 @@
 		(uuid "6f411f80-d13f-4e34-a6be-47d61344a633")
 	)
 	(junction
-		(at 154.94 88.9)
+		(at 90.17 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0b561f8-58dd-469e-b8a3-10ee59774f6c")
+	)
+	(junction
+		(at 139.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e134a070-d8ef-4742-933e-7e4316da884e")
@@ -1745,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 40.64) (xy 208.28 40.64)
+			(xy 190.5 40.64) (xy 217.17 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 152.4 110.49)
+			(xy 137.16 99.06) (xy 137.16 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1765,17 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 49.53) (xy 208.28 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06cb4103-9d64-48dc-9f0f-1913178f9644")
-	)
-	(wire
-		(pts
-			(xy 148.59 88.9) (xy 154.94 88.9)
+			(xy 133.35 88.9) (xy 139.7 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1994,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 44.45) (xy 139.7 44.45)
+			(xy 77.47 156.21) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09642b49-97ec-4ac2-9847-dfa5fce02e76")
+	)
+	(wire
+		(pts
+			(xy 140.97 44.45) (xy 137.16 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1805,13 +2014,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 97.79) (xy 76.2 97.79)
+			(xy 165.1 40.64) (xy 165.1 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1220586b-6ccc-4742-b500-6baaf394739e")
+		(uuid "170158ed-0262-4271-a169-b553c9f26431")
 	)
 	(wire
 		(pts
@@ -1825,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 88.9) (xy 168.91 88.9)
+			(xy 148.59 88.9) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1845,23 +2054,33 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 100.33) (xy 71.12 104.14)
+			(xy 214.63 49.53) (xy 212.09 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "294c2072-bd39-4719-9d0e-5db47f278dfd")
+		(uuid "2ddc3a58-8b02-418e-8abc-b78c5ba3ec4b")
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 176.53 99.06)
+			(xy 161.29 93.98) (xy 161.29 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e5c413c-2a41-4433-a5f1-4c23a63f489f")
+	)
+	(wire
+		(pts
+			(xy 55.88 105.41) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d3fbc3-2d7b-47b4-866a-bdf5dc9fcd32")
 	)
 	(wire
 		(pts
@@ -1875,17 +2094,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 157.48 49.53)
+			(xy 62.23 105.41) (xy 55.88 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3315144f-4d51-423f-a18b-5df7a6d5c4cc")
+		(uuid "33378125-b66e-4075-b162-0eeb77f78119")
 	)
 	(wire
 		(pts
-			(xy 154.94 88.9) (xy 156.21 88.9)
+			(xy 139.7 88.9) (xy 140.97 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1895,13 +2114,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 71.12 90.17)
+			(xy 55.88 110.49) (xy 55.88 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37dcbbc9-f14e-4c5a-8931-4a965d814704")
+		(uuid "41973423-ff9e-4882-a00d-652004b1d7ba")
 	)
 	(wire
 		(pts
@@ -1915,17 +2134,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 43.18) (xy 157.48 43.18)
+			(xy 62.23 110.49) (xy 55.88 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ef910d2-ea5d-4d2f-be0c-d263925c2ef1")
+		(uuid "46f73062-ddba-4b75-942c-ed090c87a05e")
 	)
 	(wire
 		(pts
-			(xy 139.7 44.45) (xy 139.7 40.64)
+			(xy 90.17 110.49) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bff4e9e-2e92-46bc-8ab9-2d134507c0ab")
+	)
+	(wire
+		(pts
+			(xy 137.16 44.45) (xy 137.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 99.06) (xy 152.4 99.06)
+			(xy 161.29 99.06) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +2204,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 110.49) (xy 156.21 110.49)
+			(xy 55.88 156.21) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d46e48-c7b3-431c-8626-a63337fbf3e6")
+	)
+	(wire
+		(pts
+			(xy 137.16 110.49) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 80.01) (xy 176.53 83.82)
+			(xy 161.29 80.01) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1995,13 +2234,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 92.71) (xy 76.2 92.71)
+			(xy 90.17 105.41) (xy 90.17 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77ac4e57-42df-4c4b-9baf-1216bcdabf70")
+		(uuid "6de82daa-2892-4fe5-9d92-f03daaecdb0a")
+	)
+	(wire
+		(pts
+			(xy 52.07 110.49) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719918a4-23b2-4175-b58b-362a5194622b")
 	)
 	(wire
 		(pts
@@ -2025,6 +2274,36 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 105.41) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b4db68-5505-4fb7-8da3-580483ea3d39")
+	)
+	(wire
+		(pts
+			(xy 217.17 44.45) (xy 217.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5bfe43-83b5-4909-a955-4556b33ccf5d")
+	)
+	(wire
+		(pts
+			(xy 85.09 156.21) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9521c550-a352-4cc8-90b3-ea9e49326f4e")
+	)
+	(wire
+		(pts
 			(xy 185.42 49.53) (xy 190.5 49.53)
 		)
 		(stroke
@@ -2035,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 100.33) (xy 154.94 100.33)
+			(xy 161.29 100.33) (xy 139.7 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2045,17 +2324,27 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 41.91) (xy 208.28 44.45)
+			(xy 77.47 142.24) (xy 74.93 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0eae1a7-d7b7-4cae-ac6a-78f3d80e3e40")
+		(uuid "a72369c7-f028-43a9-b55a-406ff525861e")
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 157.48 53.34)
+			(xy 82.55 110.49) (xy 90.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa237af2-b68d-41ef-b3ac-0b5f69ff4150")
+	)
+	(wire
+		(pts
+			(xy 162.56 49.53) (xy 162.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2065,13 +2354,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 90.17) (xy 71.12 86.36)
+			(xy 212.09 44.45) (xy 217.17 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3de0fc8-ea52-40b2-a0ba-d077d4162b1a")
+		(uuid "b7a8bd60-2ccf-4a17-b75f-4ff68f280005")
 	)
 	(wire
 		(pts
@@ -2095,16 +2384,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 95.25) (xy 76.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0b04756-d6ba-4297-9fb9-5edfb4eef767")
-	)
-	(wire
-		(pts
 			(xy 190.5 49.53) (xy 191.77 49.53)
 		)
 		(stroke
@@ -2125,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 110.49) (xy 168.91 110.49)
+			(xy 148.59 110.49) (xy 153.67 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2414,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 176.53 100.33)
+			(xy 55.88 142.24) (xy 59.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2f7a03-700f-49ee-b1a9-adb077464ad3")
+	)
+	(wire
+		(pts
+			(xy 161.29 105.41) (xy 161.29 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2145,33 +2434,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 44.45) (xy 156.21 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1ab4101-a5f1-4401-bd1e-e5277c7dbfe9")
-	)
-	(wire
-		(pts
-			(xy 157.48 40.64) (xy 157.48 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30936cf-f39a-48f6-b0e3-7a65b2ac7b2a")
-	)
-	(wire
-		(pts
-			(xy 161.29 44.45) (xy 161.29 43.18)
+			(xy 165.1 63.5) (xy 165.1 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4469ad5-d4d6-4eb0-a697-c9e625841940")
+	)
+	(wire
+		(pts
+			(xy 161.29 49.53) (xy 162.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53c661a-30ec-4baf-b2e6-abc9ec43f9d3")
 	)
 	(wire
 		(pts
@@ -2185,33 +2464,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 44.45) (xy 207.01 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc7babf-5c57-4a67-8e62-087d894c10a5")
-	)
-	(wire
-		(pts
-			(xy 176.53 115.57) (xy 176.53 119.38)
+			(xy 161.29 115.57) (xy 161.29 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df64508a-6328-461e-adab-68d65f83112b")
-	)
-	(wire
-		(pts
-			(xy 208.28 40.64) (xy 208.28 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc7acd8-97cd-422f-bc39-b0f7ed9575c7")
 	)
 	(wire
 		(pts
@@ -2225,13 +2484,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 41.91) (xy 215.9 41.91)
+			(xy 85.09 142.24) (xy 88.9 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea7d4450-5428-4277-8af7-101ee76960df")
+		(uuid "e6f1ab1f-0dca-43b0-ab52-885760348d8f")
+	)
+	(wire
+		(pts
+			(xy 55.88 123.19) (xy 55.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e724bf55-881c-41e6-abb5-9d55ba2c71a3")
 	)
 	(wire
 		(pts
@@ -2245,16 +2514,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 71.12 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f25a501b-5e76-4d70-90c1-86e7baeb2c4b")
-	)
-	(wire
-		(pts
 			(xy 185.42 35.56) (xy 185.42 38.1)
 		)
 		(stroke
@@ -2265,17 +2524,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 49.53) (xy 208.28 53.34)
+			(xy 214.63 53.34) (xy 214.63 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f58eca8e-0dc1-41e1-b381-54589554a685")
+		(uuid "f6f18992-906c-43cf-b1cf-2045b1b0620f")
 	)
 	(wire
 		(pts
-			(xy 208.28 53.34) (xy 190.5 53.34)
+			(xy 190.5 53.34) (xy 214.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2544,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 154.94 88.9)
+			(xy 161.29 44.45) (xy 165.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78f859e-0c7c-41bd-81a9-b3500ca4eb16")
+	)
+	(wire
+		(pts
+			(xy 139.7 100.33) (xy 139.7 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 53.34) (xy 137.16 53.34)
+			(xy 162.56 53.34) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 110.49) (xy 152.4 110.49)
+			(xy 133.35 110.49) (xy 137.16 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2315,17 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 43.18) (xy 157.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fddddf23-16ac-4052-9025-109349ec5f7a")
-	)
-	(wire
-		(pts
-			(xy 215.9 43.18) (xy 215.9 41.91)
+			(xy 217.17 60.96) (xy 217.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 40.64) (xy 157.48 40.64)
+			(xy 137.16 40.64) (xy 165.1 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5830,7 +6089,7 @@
 	)
 	(hierarchical_label "GPIO08"
 		(shape bidirectional)
-		(at 71.12 92.71 180)
+		(at 52.07 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5841,7 +6100,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 176.53 80.01 90)
+		(at 161.29 80.01 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5863,7 +6122,7 @@
 	)
 	(hierarchical_label "GPIO19"
 		(shape bidirectional)
-		(at 71.12 97.79 180)
+		(at 55.88 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5874,7 +6133,7 @@
 	)
 	(hierarchical_label "DTR"
 		(shape bidirectional)
-		(at 148.59 88.9 180)
+		(at 133.35 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5907,7 +6166,7 @@
 	)
 	(hierarchical_label "RTS"
 		(shape bidirectional)
-		(at 148.59 110.49 180)
+		(at 133.35 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5929,7 +6188,7 @@
 	)
 	(hierarchical_label "GPIO18"
 		(shape bidirectional)
-		(at 71.12 95.25 180)
+		(at 55.88 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5940,7 +6199,7 @@
 	)
 	(hierarchical_label "BOOT"
 		(shape input)
-		(at 176.53 119.38 270)
+		(at 161.29 119.38 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5948,6 +6207,200 @@
 			(justify right)
 		)
 		(uuid "fc245fab-4502-4900-b0bf-1f8d401f6929")
+	)
+	(symbol
+		(lib_id "TL3305AF260QG:TL3305AF260QG")
+		(at 72.39 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08d7d02c-3e24-441d-91df-328d4d367e23")
+		(property "Reference" "S3"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW1"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESP32 Project Libraries:SW_TL3305AF260QG"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 E-Switch"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3305AF260QG"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2569896c-8f1d-428e-a11d-fd43486712a7")
+		)
+		(pin "4"
+			(uuid "b4f831ee-7f3c-4270-9b90-87a65e4078a6")
+		)
+		(pin "3"
+			(uuid "36a118ac-fb80-41f9-aad0-652fcff5a599")
+		)
+		(pin "2"
+			(uuid "78bf19d6-9a5e-4233-8387-2da871bb7c7a")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6083,7 +6536,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 110.49 90)
+		(at 144.78 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6092,7 +6545,7 @@
 		(fields_autoplaced yes)
 		(uuid "1585e1e0-f0e8-47a1-82c0-7a938d6491d8")
 		(property "Reference" "R34"
-			(at 160.02 104.14 90)
+			(at 144.78 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6553,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 160.02 106.68 90)
+			(at 144.78 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6561,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 160.02 112.268 90)
+			(at 144.78 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 110.49 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6579,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 110.49 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,83 +6597,6 @@
 			(project "ESP32_IoT_Board"
 				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 81.28 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3de3255a-31d7-4f13-96b4-777f026470df")
-		(property "Reference" "J5"
-			(at 80.645 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 80.645 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 81.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 81.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6743dcd2-d065-4649-834d-b85f1d0c6349")
-		)
-		(pin "3"
-			(uuid "a8d084f1-5d38-4763-9b98-ae8d6c8aa990")
-		)
-		(pin "1"
-			(uuid "4f188be9-ab02-45d1-9069-0c0e71be9159")
-		)
-		(pin "2"
-			(uuid "bf5226ec-3b4a-45e7-8813-da684de21c1a")
-		)
-		(pin "5"
-			(uuid "d7455a07-ce30-4d1f-9079-c10096be488a")
-		)
-		(instances
-			(project ""
-				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6294,74 +6670,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 71.12 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "488517b2-5c50-4fab-af21-02d988e6dbd6")
-		(property "Reference" "#PWR057"
-			(at 71.12 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 71.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d6ff63f-bc6b-4fb5-b329-ff7efc9f702f")
-		)
-		(instances
-			(project "ESP32_IoT_Board"
-				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC817")
-		(at 173.99 88.9 0)
+		(at 158.75 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6370,7 +6680,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fc678eb-0427-47ff-bc2e-e011ebd32cf7")
 		(property "Reference" "Q2"
-			(at 179.07 87.6299 0)
+			(at 163.83 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6689,7 @@
 			)
 		)
 		(property "Value" "BC817"
-			(at 179.07 90.1699 0)
+			(at 163.83 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6698,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 179.07 90.805 0)
+			(at 163.83 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6709,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 173.99 88.9 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +6719,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 173.99 88.9 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6747,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 88.9 90)
+		(at 144.78 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6446,7 +6756,7 @@
 		(fields_autoplaced yes)
 		(uuid "52eeaa44-4230-4704-9a21-9f29d88f658e")
 		(property "Reference" "R33"
-			(at 160.02 82.55 90)
+			(at 144.78 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6764,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 160.02 85.09 90)
+			(at 144.78 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6772,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 160.02 90.678 90)
+			(at 144.78 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +6781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 88.9 0)
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6790,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 88.9 0)
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,17 +6958,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 71.12 104.14 0)
+		(lib_id "Device:R")
+		(at 81.28 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d8d914c-246f-4f98-8953-2a8ceeb42d5c")
-		(property "Reference" "#PWR058"
-			(at 71.12 110.49 0)
+		(uuid "5a21fcbc-2f6c-4123-8264-4aebea3b5f01")
+		(property "Reference" "R37"
+			(at 80.01 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470"
+			(at 80.01 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 81.28 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,16 +6993,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 104.14 0)
+		(property "Datasheet" "~"
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,17 +7002,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 104.14 0)
+		(property "Description" "Resistor"
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,12 +7012,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4e0a036-7b0c-4a3e-91de-0e7568751163")
+			(uuid "b62863e9-370b-46ff-ad84-497a657a6fc5")
+		)
+		(pin "2"
+			(uuid "d336933c-8ab9-4fdf-b98c-3be634604ba0")
 		)
 		(instances
 			(project "ESP32_IoT_Board"
 				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
-					(reference "#PWR058")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6715,16 +7028,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 43.18 0)
+		(at 88.9 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91dbcc5d-3d59-4a0f-84f5-6003e96f75f9")
-		(property "Reference" "#PWR061"
-			(at 215.9 49.53 0)
+		(uuid "5ae9cf64-ea07-44a4-a9a7-f3de036836da")
+		(property "Reference" "#PWR069"
+			(at 95.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,15 +7046,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 48.26 0)
+			(at 92.71 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 43.18 0)
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +7064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 43.18 0)
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +7073,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 43.18 0)
+			(at 88.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41206bcd-5959-401d-ba6c-cc6e23a3e989")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91dbcc5d-3d59-4a0f-84f5-6003e96f75f9")
+		(property "Reference" "#PWR061"
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,8 +7160,149 @@
 		)
 	)
 	(symbol
+		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
+		(at 74.93 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97559d78-c3d2-4e0a-a3be-af0958da03e1")
+		(property "Reference" "LED7"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170KRKT"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
+			(at 62.23 62.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+			(at 62.23 -37.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 62.23 -237.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 62.23 -337.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+			(at 62.23 -437.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KRKT"
+			(at 62.23 -537.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+			(at 62.23 -637.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170KRKT"
+			(at 62.23 -737.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at 62.23 -837.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6893fe6d-f7da-42d5-8c8a-5a97599689e7")
+		)
+		(pin "1"
+			(uuid "571c9883-7bd9-4caa-97a1-079f17609602")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 161.29 44.45 0)
+		(at 165.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6790,7 +7311,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0eb90d3-bce4-4d01-af94-0522916ba44c")
 		(property "Reference" "#PWR060"
-			(at 161.29 50.8 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +7320,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 49.53 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,7 +7328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 44.45 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +7337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 44.45 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +7346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 44.45 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,8 +7367,78 @@
 		)
 	)
 	(symbol
-		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
-		(at 148.59 46.99 0)
+		(lib_id "Device:R")
+		(at 55.88 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a30c95bd-f7f0-424a-9723-37659b54b6aa")
+		(property "Reference" "R36"
+			(at 58.42 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 58.42 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.658 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "253fecea-3e55-4dc0-9b87-e5ea61710920")
+		)
+		(pin "1"
+			(uuid "d8a89172-2434-487c-9317-615730e4e433")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3305AF260QG:TL3305AF260QG")
+		(at 151.13 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6856,7 +7447,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3928616-0242-4f89-af42-a81cd7ff858f")
 		(property "Reference" "S1"
-			(at 148.59 36.83 0)
+			(at 151.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,15 +7455,15 @@
 			)
 		)
 		(property "Value" "Boot"
-			(at 148.59 39.37 0)
+			(at 151.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ESP32 Project Libraries:SW_USLPT2819DT2TR"
-			(at 148.59 46.99 0)
+		(property "Footprint" "ESP32 Project Libraries:SW_TL3305AF260QG"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +7473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 46.99 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +7482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 46.99 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,8 +7490,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
-			(at 148.59 46.99 0)
+		(property "MF" "E-Switch"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +7501,7 @@
 			)
 		)
 		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 148.59 46.99 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,8 +7510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 148.59 46.99 0)
+		(property "Package" "SMD-4 E-Switch"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7521,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 148.59 46.99 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,8 +7530,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 148.59 46.99 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,8 +7540,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 148.59 46.99 0)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,8 +7550,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "P"
-			(at 148.59 46.99 0)
+		(property "PARTREV" "C"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,8 +7560,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 148.59 46.99 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,8 +7570,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "USLPT2819DT2TR"
-			(at 148.59 46.99 0)
+		(property "MP" "TL3305AF260QG"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,7 +7581,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 148.59 46.99 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,13 +7590,22 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 148.59 46.99 0)
+		(property "MANUFACTURER" "E-Switch"
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7031,8 +7631,149 @@
 		)
 	)
 	(symbol
-		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
-		(at 199.39 46.99 0)
+		(lib_id "LTST-C170GKT:LTST-C170GKT")
+		(at 74.93 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a47b72b3-5dbb-41d1-a855-83d226eb7b2e")
+		(property "Reference" "LED8"
+			(at 66.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170GKT"
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ESP32 Project Libraries:LEDC2012X120N"
+			(at 62.23 48.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/895/LTST-C170GKT.pdf"
+			(at 62.23 -51.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,6mcd,130deg Lite-On LTST-C170GKT, CHIPLED 0805 Series Green LED, 569 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 74.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 62.23 -251.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 62.23 -351.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170GKT"
+			(at 62.23 -451.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170GKT"
+			(at 62.23 -551.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170GKT?qs=%2FSqKn2EfXQSV5aRij3YIfQ%3D%3D"
+			(at 62.23 -651.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170GKT"
+			(at 62.23 -751.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170gkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at 62.23 -851.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d68eaf62-4d60-4d77-baa3-6a9e003ff960")
+		)
+		(pin "1"
+			(uuid "9b0a28d8-b0d0-4cff-a40f-cac835cf8b2d")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3305AF260QG:TL3305AF260QG")
+		(at 201.93 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7041,7 +7782,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad241c2d-feb2-4638-ab6f-a5a52dc7eb53")
 		(property "Reference" "S2"
-			(at 199.39 36.83 0)
+			(at 201.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,15 +7790,15 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 199.39 39.37 0)
+			(at 201.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ESP32 Project Libraries:SW_USLPT2819DT2TR"
-			(at 199.39 46.99 0)
+		(property "Footprint" "ESP32 Project Libraries:SW_TL3305AF260QG"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 46.99 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7817,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 46.99 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,8 +7825,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
-			(at 199.39 46.99 0)
+		(property "MF" "E-Switch"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7836,7 @@
 			)
 		)
 		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 199.39 46.99 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,8 +7845,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 199.39 46.99 0)
+		(property "Package" "SMD-4 E-Switch"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7856,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 199.39 46.99 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,8 +7865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
-			(at 199.39 46.99 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,8 +7875,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 199.39 46.99 0)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,8 +7885,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "P"
-			(at 199.39 46.99 0)
+		(property "PARTREV" "C"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,8 +7895,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USLPT2819DT2TR/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
-			(at 199.39 46.99 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,8 +7905,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "USLPT2819DT2TR"
-			(at 199.39 46.99 0)
+		(property "MP" "TL3305AF260QG"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7916,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 199.39 46.99 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,13 +7925,22 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "TE CONNECTIVITY"
-			(at 199.39 46.99 0)
+		(property "MANUFACTURER" "E-Switch"
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7210,6 +7960,72 @@
 			(project ""
 				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 90.17 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2d993ed-6642-4548-9cfe-5f425916fdfb")
+		(property "Reference" "#PWR067"
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 90.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e033430a-c17a-4b65-9a33-c61d28a2acbe")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -7277,6 +8093,73 @@
 			(project ""
 				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1104a66-6795-42f3-9551-221a11d352e9")
+		(property "Reference" "#PWR070"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b0903d1-7647-421c-9d0f-34290fb7c717")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7489,16 +8372,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC817")
-		(at 173.99 110.49 0)
+		(at 158.75 110.49 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "edb1b194-1586-4160-bc5c-dfb2b256811e")
 		(property "Reference" "Q3"
-			(at 179.07 109.2199 0)
+			(at 163.83 111.7601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +8390,7 @@
 			)
 		)
 		(property "Value" "BC817"
-			(at 179.07 111.7599 0)
+			(at 163.83 109.2201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +8399,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 179.07 112.395 0)
+			(at 163.83 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +8410,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 173.99 110.49 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +8420,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 173.99 110.49 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,6 +8441,141 @@
 			(project "ESP32_IoT_Board"
 				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f835e641-8e3e-4d83-904e-f41b8fcea695")
+		(property "Reference" "R38"
+			(at 80.01 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470"
+			(at 80.01 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 81.28 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82659b06-11ba-4786-b0d2-fcfaf937c5e9")
+		)
+		(pin "2"
+			(uuid "659ef6ae-a1ac-441c-9135-718720ab89ba")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f86d4bcd-3236-46d5-95c8-4c630966c65a")
+		(property "Reference" "#PWR068"
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab28555e-3b31-42a0-849b-2f03ca4027bf")
+		)
+		(instances
+			(project "ESP32_IoT_Board"
+				(path "/f5734d9e-f791-424c-8afd-659e65fe183d/9d531cc9-8202-4c1d-9a61-f26531e8619f/7e301be8-40a5-4cbe-a2f7-7627ae2d9043"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
